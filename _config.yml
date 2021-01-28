@@ -30,7 +30,7 @@ remote_theme: mmistakes/minimal-mistakes
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Edmonton
 
 include:
   - _pages
@@ -60,7 +60,7 @@ plugins:
 author:
   name             : "Khalil Wu"
   avatar           : "/assets/images/myself.jpg"
-  bio              : "Just a MSc student in UAlberta."
+  bio              : "A Boring MSc student."
   location         : "Edmonton, CA"
   email            : "zijuncanada@gmail.com"
   links:
@@ -76,7 +76,6 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://www.instagram.com/khalil_wu/"
-
 
 footer:
   links:
@@ -97,11 +96,13 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: true
       share: true
       related: true
+      show_date: true
+
   # _pages
   - scope:
       path: "_pages"
@@ -116,3 +117,4 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
