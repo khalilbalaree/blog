@@ -62,11 +62,11 @@ author:
   avatar           : "/assets/images/myself.jpg"
   bio              : "Just a MSc student in UAlberta."
   location         : "Edmonton, CA"
-  email            : 
+  email            : "zijuncanada@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "zijuncanada@gmail.com"
+      # url: "zijuncanada@gmail.com"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
