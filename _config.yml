@@ -102,6 +102,7 @@ defaults:
       share: true
       related: true
       show_date: true
+      
 
   # _pages
   - scope:
@@ -118,3 +119,9 @@ tag_archive:
   type: liquid
   path: /tags/
 
+repository: "khalilbalaree/blog"
+comments:
+  provider: "utterances"
+  utterances:
+    theme: "github-dark"
+    issue_term: "comments"
